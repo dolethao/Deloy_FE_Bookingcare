@@ -1,0 +1,64 @@
+.detail-specialty-container {
+    background-color: #eeeeee;
+    margin-bottom: 20px;
+
+    .detail-specialty-description {
+        min-height: 50px;
+        background: #ffffff;
+        padding: 10px;
+        margin: 10px 350px;
+    }
+
+    .detail-specialty-body {
+
+        margin: 0 350px;
+        background: #ffffff;
+
+        .each-doctor {
+            min-height: 300px;
+            display: flex;
+            background-color: #fff;
+            box-shadow: 0 1px 6px #20212447;
+            border-radius: 8px;
+            border-bottom: none;
+            margin-bottom: 10px;
+            padding: 10px;
+
+            .specialty-content-left {
+                width: 55%;
+            }
+
+            .specialty-content-right {
+                padding: 10px;
+                width: 45%;
+                border-left: 1px solid #ddd;
+
+                .doctor-extral-infor-container {
+                    padding-left: 0px !important;
+                }
+
+                .doctor-extral-infor-container .content-up {
+                    border-top: 1px solid #ddd;
+                    padding: 10px 0;
+                }
+
+                .hide {
+                    padding-top: 7px;
+                }
+            }
+        }
+
+        .search-specialty-doctor {
+            padding: 5px;
+            background: #eeeeee;
+            font-size: 15px;
+
+            .selected-province {
+                padding: 4px;
+                border-radius: 6px;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}

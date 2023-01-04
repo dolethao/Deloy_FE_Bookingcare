@@ -1,0 +1,60 @@
+.manage-patient-container {
+    .manage-patient-title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+
+    .manage-patient-body {
+        margin: 15px;
+
+        .table-manage-patient {
+            margin-top: 20px;
+
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td,
+            th {
+                border: 1px solid black;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {}
+
+            .button {
+                cursor: pointer;
+                border: none;
+                outline: none;
+            }
+
+            .mp-btn-confirm {
+                height: 30px;
+                margin-right: 10px;
+                background: orange;
+                border-radius: 3px;
+            }
+
+            .mp-btn-remedy {
+                height: 30px;
+                background: #39dca0;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+div._loading_overlay_wrapper {
+    //Tùy chọn bảo phủ toàn trang
+    position: unset;
+
+    ._loading_overlay_overlay {
+        z-index: 10000;
+    }
+}

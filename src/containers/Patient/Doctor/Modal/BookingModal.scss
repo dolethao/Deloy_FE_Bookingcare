@@ -1,0 +1,67 @@
+.booking-modal-container {
+    .booking-modal-content {
+        display: flex;
+        flex-direction: column;
+
+        .booking-modal-header {
+            padding: 10px;
+
+            .left {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            .right {
+                float: right;
+                font-size: 15px;
+                cursor: pointer;
+            }
+        }
+
+        .booking-modal-body {
+            height: 100%;
+            padding: 10px;
+        }
+
+        .booking-modal-footer {
+            padding: 10px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+
+            .btn-save {
+                background-color: #eee;
+                border-radius: 3px;
+                border: none;
+                outline: none;
+                padding: 5px 8px;
+
+
+                &:hover {
+                    background-color: #0a95ff;
+                }
+            }
+
+            .btn-cancel {
+                background-color: #eee;
+                border-radius: 3px;
+                border: none;
+                outline: none;
+                padding: 5px 8px;
+
+                &:hover {
+                    background-color: #0a95ff;
+                }
+            }
+        }
+    }
+}
+
+div._loading_overlay_wrapper {
+    //Tùy chọn bảo phủ toàn trang
+    position: unset;
+
+    ._loading_overlay_overlay {
+        z-index: 10000;
+    }
+}

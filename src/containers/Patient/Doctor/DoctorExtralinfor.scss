@@ -1,0 +1,82 @@
+.doctor-extral-infor-container {
+    padding-left: 15px;
+    width: 500px;
+
+    .content-up {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+
+        .text-address {
+            text-transform: uppercase;
+            color: #333;
+            font-size: 15px;
+        }
+
+        .name-cilinic {
+            padding: 5px 0;
+            font-weight: 600;
+        }
+
+        .address-cilinic {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+
+    .content-down {
+        .show {
+            font-size: 14px;
+
+            .currency {
+                margin: 0 5px;
+            }
+
+            span {
+                cursor: pointer;
+            }
+        }
+
+        .hide {
+            a {
+                cursor: pointer;
+            }
+        }
+
+        .title-price {
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .text-up {
+            border: 1px solid #ddd;
+            padding: 5px;
+            padding: 5px;
+            margin-top: 7px;
+            background: #f8f8f8;
+
+            .left {
+                font-size: 13px;
+            }
+
+            .right {
+                float: right;
+                font-size: 13px;
+            }
+
+            .bottom {
+                font-size: 13px;
+            }
+
+        }
+
+        .text-down {
+            border: 1px solid #eee;
+            padding: 7px;
+            background: #eee;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+    }
+}

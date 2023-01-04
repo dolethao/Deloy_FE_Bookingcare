@@ -1,0 +1,214 @@
+.home-header-container {
+    height: 80px;
+    width: 100%;
+    padding: 0 150px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+
+    .home-header-content {
+        height: 100%;
+        width: 100%;
+        display: flex;
+
+
+        .left-content {
+            width: 20%;
+            display: flex;
+
+            .header-logo {
+                background: url('../../assets/logo.svg') center center no-repeat;
+                height: 50%;
+                width: 55%;
+                cursor: pointer;
+                margin: 20px 10px;
+                float: left !important;
+            }
+
+            .header-menu {
+                font-size: 25px;
+                cursor: pointer;
+                margin: 25px 0;
+                margin-left: 50px;
+            }
+        }
+
+        .center-content {
+            width: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 15px;
+
+            .child-content {
+                cursor: pointer;
+
+                .subs-title {
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+        }
+
+        .right-content {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+
+            .support {
+                padding-right: 30px;
+                cursor: pointer;
+
+                i {
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+            }
+
+            .language-vi {
+                cursor: pointer;
+                opacity: 0.2;
+
+                &.active {
+                    opacity: 1.5;
+
+                    span {
+                        color: red
+                    }
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .language-en {
+            cursor: pointer;
+            margin: 0 15px;
+            opacity: 0.2;
+
+            &.active {
+                opacity: 1.5;
+
+                span {
+                    color: red
+                }
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+.home-header-banner {
+
+    background-image: url('../../assets/background.jpg');
+    height: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        height: 65%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            margin-bottom: 10px;
+            margin-top: 110px;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .search {
+            border-radius: 25px;
+            width: fit-content;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin: 0 auto;
+
+            background: rgb(224, 224, 59);
+            padding: 7px;
+
+            input {
+                width: 360px;
+                height: 30px;
+                border: none;
+                outline: none;
+                background: transparent;
+            }
+
+            i {
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .content-down {
+        height: 35%;
+        display: flex;
+        padding-bottom: 25px;
+        align-items: flex-end;
+        justify-content: center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+        .option {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+
+            .option-child {
+                width: 110px;
+
+                .icon-child {
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    margin: 0 auto;
+                    background: white;
+
+
+                    i {
+                        color: #49bce2;
+                        font-size: 20px;
+                    }
+                }
+
+                .text-child {
+                    font-size: 17px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #49bce2;
+                    }
+                }
+            }
+
+        }
+    }
+
+}

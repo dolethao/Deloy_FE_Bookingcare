@@ -1,0 +1,30 @@
+.manage-specialty-contanier {
+    padding: 0 30px;
+
+    .manage-specialty-title {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+
+    .manage-specialty-content {
+        .name {
+            padding-bottom: 15px;
+        }
+
+        .img {
+            padding-bottom: 15px;
+        }
+
+        .btn-save {
+            margin: 10px 0;
+            cursor: pointer;
+            padding: 5px 8px;
+            border-radius: 3px;
+            background-color: orange;
+            outline: none;
+        }
+    }
+}
